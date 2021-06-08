@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 80px;
+    background: #31423E;
+    display: flex;
+    padding: 10px 20px;
+}
+
+/* Tamaño de imagen carousel */
+
+
+.carrusel{
+    padding: 200px 450px;
+}
+
+/* Logo de See You */
+
+.logo a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 40px;
+      line-height: 60px;
+      font-family: 'Pacifico', cursive;
+  }
+
+.logo a
+
+ #menu{
+      margin-left: auto;
+  }
+
+ #menu ul li{
+     display: inline-block;
+  }
+
+ #menu ul li a{
+     display: inline-block;
+     position: relative;
+     color: #fff;
+     text-decoration: none;
+     line-height: 60px;
+     padding: 0 8px;
+     font-size: 20px;
+     transition: .2s;
+ } 
+
+/* Animacion cuando paso por arriba el mouse a los menues */
+
+ #menu ul li a:hover{
+     background:#31543E;
+ }
+
+
+ .footer{
+     background: #b2b2b2;
+     margin: auto;
+     padding-top: 50px;
+     color:black;
+     
+ }
+
+ .container-body{
+     display: flex;
+     justify-content: space-around;
+     
+ }
+
+ .columna2, .columna3{
+     width: 300px;
+
+ }
+
+.columna1{
+    width: 500px;
+}
+
+
+#buzos,#remeras,#jeans{
+    display: flex;
+    width: 1700px;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.buzo1,.buzo2,.buzo3,.remera1,.remera2,.remera3,.jean1,.jean2,.jean3{
+
+    width: 450px;
+    height: 600px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    margin: 20px;
+    
+}
+.buzo1{
+    background: url(/Multimedia/Buzo\ 1\ frente.jpg);
+    
+}
+
+.buzo1:hover{
+    background: url(/Multimedia/Buzo\ 1\ back.jpg);
+}
+
+
+
+.buzo2{
+    background: url(/Multimedia/Buzo\ 2\ frente.jpg);
+}
+
+.buzo2:hover{
+    background: url(/Multimedia/Buzo\ 2\ back.jpg);
+}
+
+
+
+.buzo3{
+    background: url(/Multimedia/Buzo\ 3\ frente.jpg);
+}
+
+.buzo3:hover{
+    background: url(/Multimedia/Buzo\ 3\ back.jpg);
+}
+
+h2{
+    width: 1700px;
+    text-align: center;
+    padding:30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.remera1{
+    background:url(/Multimedia/Remera\ 1\ frente.jpg);
+}
+
+.remera1:hover{
+    background:url(/Multimedia/Remera\ 1\ back.jpg);
+}
+
+.remera2{
+    background: url(/Multimedia/Remera\ 2\ frente.jpg);
+}
+
+.remera2:hover{
+    background: url(/Multimedia/Remera\ 2\ back.jpg);
+}
+
+
+.remera3{
+    background: url(/Multimedia/Remera\ 3\ frente.jpg);
+}
+
+.remera3:hover{
+    background: url(/Multimedia/Remera\ 3\ back.jpg);
+}
+
+
+.jean1{
+    background: url(/Multimedia/Jean\ 1\ frente.jpg);
+}
+
+.jean1:hover{
+    background: url(/Multimedia/Jean\ 1\ back.jpg);
+}
+
+.jean2{
+    background: url(/Multimedia/Jean\ 2\ frente.jpg);
+}
+
+.jean2:hover{
+    background: url(/Multimedia/Jean\ 2\ back.jpg);
+}
+
+.jean3{
+    background: url(/Multimedia/Jean\ 3\ frente.jpg);
+}
+
+.jean3:hover{
+    background: url(/Multimedia/Jean\ 3\ back.jpg);
+}
+
+
+.logoseeyou{
+
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    text-align: center;
+    font-size: 17pt;
+}
+
+.sucursales{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+.alineado{
+    vertical-align: text-top;
+}
+
+main{
+    width: 1700px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+
+.buzo1,.buzo2,.buzo3,.remera1,.remera2,.remera3,.jean1,.jean2,.jean3 > p {
+
+    padding-top: 250px;
+    color: rgb(155, 158, 156);
+    font-weight: bolder;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.buzo1:hover,.buzo2:hover,.buzo3:hover,.remera1:hover,.remera2:hover,.remera3:hover,.jean1:hover,.jean2:hover,.jean3:hover{
+    opacity: 0.7;
+    transition: 1.5s;
+    color: black;
+    
+}
+
+
+
+/* Media Queries */
+
+
+    
