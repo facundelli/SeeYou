@@ -60,29 +60,8 @@ header{
  }
 
 
- .footer{
-     background: #b2b2b2;
-     margin: auto;
-     padding-top: 50px;
-     color:black;
-     
- }
-
- .container-body{
-     display: flex;
-     justify-content: space-around;
-     
- }
-
- .columna2, .columna3{
-     width: 300px;
-
- }
-
-.columna1{
-    width: 500px;
-}
-
+ 
+/* Seccion Productos */
 
 #buzos,#remeras,#jeans{
     display: flex;
@@ -233,9 +212,42 @@ main{
     
 }
 
+.footer{
+    background: #b2b2b2;
+    margin: auto;
+    padding-top: 50px;
+    color:black;
+    
+}
+
+.container-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.columna2, .columna3{
+    width: 300px;
+
+}
+
+.columna1{
+   width: 500px;
+}
 
 
 /* Media Queries */
 
-
-    
+@media all and (max-width: 1025px){
+    .carrusel{
+        padding: 0;
+    }
+    #menu ul li a{
+        color:wheat;
+        background: #31543E;
+        font-size: 15px;
+        height: auto;
+        display: inline;
+    }
+}
